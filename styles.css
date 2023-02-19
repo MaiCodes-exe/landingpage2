@@ -12,9 +12,12 @@ margin:5%;
     opacity:0.5;
 }
 
-#description{
+#description, #description2{
 justify-self: center;
-letter-spacing: 1px;
+letter-spacing: 1.5px;
+justify-content: center;
 
-
+}
+.h4{
+    justify-content: center;
 }
