@@ -1,11 +1,16 @@
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
+    <div>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography variant="h6">My Landing Page</Typography>
+        </Toolbar>
+      </AppBar>
+      <Container>
+        <HeroSection />
+        <FeaturesSection />
+      </Container>
+      <Footer />
     </div>
   );
 }
