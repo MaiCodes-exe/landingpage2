@@ -11,7 +11,7 @@ function App() {
     <div>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6">My Landing Page</Typography>
+          <Typography variant="h6">Pending title</Typography>
         </Toolbar>
       </AppBar>
       <Container>
