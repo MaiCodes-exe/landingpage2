@@ -6,8 +6,7 @@ const HeroSection = () => {
     <Box mt={4} textAlign="center">
       <Typography variant="h2">Landing Page</Typography>
       <Typography variant="subtitle1">
-        asdfghnjmk,jhgfdssxdfghjklkjhbgvfcdxsxdfghjkl,.,kjhg
-      </Typography>
+      editing      </Typography>
       <Button variant="contained" color="primary">
         Get Started
       </Button>
