@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <Box mt={4} textAlign="center">
       <Typography variant="body2">
-        © {new Date().getFullYear()} Landing Page. All rights reserved.
+        © {new Date().getFullYear()} editing Landing Page. All rights reserved.
       </Typography>
       <Link href="/privacy">Privacy Policy</Link>
     </Box>
