@@ -15,7 +15,6 @@ function App() {
       </AppBar>
       <Container>
         <HeroSection />
-        <FeaturesSection />
       </Container>
       <Footer />
     </div>
