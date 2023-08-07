@@ -2,7 +2,6 @@
 import React from 'react';
 import { AppBar, Container, Toolbar, Typography } from '@mui/material';
 import HeroSection from './herosection';
-// import FeaturesSection from './components/FeaturesSection';
 import Footer from './footer';
 
 
