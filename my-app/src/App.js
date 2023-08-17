@@ -1,7 +1,4 @@
 import './App.css';
-import { Feed } from "./Feed";
-
-
 
 
 function App() {
