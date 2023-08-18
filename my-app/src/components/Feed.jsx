@@ -5,18 +5,20 @@ import { ImageList, ImageListItem } from '@mui/material'
 
 export const Feed = () => {
   return (
-<ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
-      {itemData.map((item) => (
-        <ImageListItem key={item.img}>
-          <img
-            src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-            srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-            alt={item.title}
-            loading="lazy"
-          />
-        </ImageListItem>
-      ))}
-    </ImageList>  )
+
+    <ImageList variant="masonry" cols={3} gap={8}>
+    {itemData.map((item) => (
+      <ImageListItem key={item.img}>
+        <img
+          src={`${item.img}?w=248&fit=crop&auto=format`}
+          srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+          alt={item.title}
+          loading="lazy"
+        />
+      </ImageListItem>
+    ))}
+  </ImageList>
+ )
 }
 
 
