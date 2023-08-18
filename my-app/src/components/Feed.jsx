@@ -1,7 +1,5 @@
 import React from 'react'
-import { ImageList, ImageListItem, Box } from '@mui/material'
-
-
+import { Box, ImageList, ImageListItem } from '@mui/material'
 
 export const Feed = () => {
   return (
