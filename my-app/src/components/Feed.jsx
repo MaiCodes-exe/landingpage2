@@ -3,7 +3,7 @@ import { Box, ImageList, ImageListItem } from '@mui/material'
 
 export const Feed = () => {
   return (
-    <Box sx={{ width: 500, height: 550 }}>
+    <Box sx={{ width: 500, height: 750 }}>
     <ImageList variant="masonry" cols={3} gap={8}>
       {itemData.map((item) => (
         <ImageListItem key={item.img}>
